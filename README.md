@@ -1,5 +1,5 @@
-# arch-secure-boot
- shell script to enable secure boot in arch
+# Arch-secure-boot
+ shell script to enable secure boot in Arch (I don't use arch, btw)
 ## Notes
  The shell script should work for other distributions, as long as you swap line 13 and 14 with your distribution's sbctl package. You can find the exact command from the ## Install part in https://github.com/Foxboron/sbctl
  
@@ -9,7 +9,7 @@
 ## Usage
 Clone and cd into this repository with 
 ```bash
-git clone https://github.com/degenerate-kun-69/nobara-secure-boot.git/ && cd nobara-secure-boot
+git clone -b arch --single-branch https://github.com/degenerate-kun-69/nobara-secure-boot.git && cd nobara-secure-boot
 ```
 then run the script as root with 
 
