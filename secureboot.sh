@@ -10,8 +10,7 @@ if [[ "$EUID" -ne 0 ]]; then
 fi
 
 echo "=== Enabling sbctl copr and installing sbctl ==="
-dnf -y copr enable chenxiaolong/sbctl
-dnf -y install sbctl
+pacman -Syu sbctl
 
 echo -e "\n=== Checking sbctl status ==="
 sbctl status
